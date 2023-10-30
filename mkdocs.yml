@@ -1,8 +1,9 @@
 site_name: Foods Library
 site_description: Grant's Webzone
 site_author: Grant LaLonde
-docs_dir: "content"
-
+docs_dir: "docs"
+plugins:
+  - blog
 repo_url: https://github.com/Grantlal/webzone
 repo_name: "Grantlal/webzone"
 
