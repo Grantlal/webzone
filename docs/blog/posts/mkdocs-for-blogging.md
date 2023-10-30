@@ -1,1 +1,2 @@
-<h1> Blogging? But like why? </h1>
+<h2>Blogging? But like why?</h2>
+I honestly have no idea why
