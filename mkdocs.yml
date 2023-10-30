@@ -1,4 +1,4 @@
-site_name: Foods Library
+site_name: Foods for Thought Library
 site_description: Grant's Webzone
 site_author: Grant LaLonde
 docs_dir: "docs"
@@ -6,6 +6,16 @@ plugins:
   - blog
 repo_url: https://github.com/Grantlal/webzone
 repo_name: "Grantlal/webzone"
-
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 theme:
   name: material
+  favicon: images/favicon.ico
+  logo: images/logo.jpg
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: light green
