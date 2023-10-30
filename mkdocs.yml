@@ -4,7 +4,6 @@ site_author: Grant LaLonde
 docs_dir: "docs"
 plugins:
   - blog
-      categories: true
 repo_url: https://github.com/Grantlal/webzone
 repo_name: "Grantlal/webzone"
 
